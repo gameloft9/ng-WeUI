@@ -1,0 +1,14 @@
+<div class="hd">
+    <h1 class="page_title">ActionSheet</h1>
+</div>
+<div>
+    <input class="weui_btn weui_btn_primary" type="button" value="点击上拉actionsheet" ng-click="showActionSheet()"/>
+    <input class="weui_btn weui_btn_primary" type="button" value="测试添加actionSample" ng-click="addAction({name:'actionSample',action:doAction})"/>
+    <input class="weui_btn weui_btn_primary" type="button" value="测试删除actionSample" ng-click="removeAction('actionSample')"/>
+
+    <my-action-sheet action-list="list"></my-action-sheet>
+    <!--
+     bug:不使用action-list属性，则通过方法添加action会失败。
+     <my-action-sheet></my-action-sheet>
+    -->
+</div>
