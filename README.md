@@ -10,9 +10,9 @@
 + 使用weui.min.css
 
 ###使用控件所需js
-+directiveControllers.js
-+directives.js
-+directiveServices.js
++ directiveControllers.js
++ directives.js
++ directiveServices.js
 
 ###正在进行
 
