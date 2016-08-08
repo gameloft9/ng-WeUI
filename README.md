@@ -6,7 +6,7 @@
 
 + 使用angular.js
 + 使用angular-route.js
-+ 使用angular-animate.min.js
++ 使用angular-animate.min.js(动画暂未实现，可不引用)
 + 使用weui.min.css
 
 ###使用控件所需js
